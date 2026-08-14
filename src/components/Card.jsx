@@ -5,8 +5,6 @@ import './Card.css';
 const Card = ({ title, image, description , projectUrl }) => {
 
   const HandleClick = () => {
-    // Handle the click event here
-    console.log(`Card clicked: ${title}`);
     window.open(projectUrl, "_blank");
   }
 
